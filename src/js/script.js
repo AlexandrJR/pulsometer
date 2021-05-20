@@ -1,8 +1,10 @@
 $(document).ready(function(){
 	$('.carousel__inner').slick({
 		speed: 1200,
-		prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.svg"></button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
+		autoplay: true,
+		autoplaySpeed: 1500,
 		responsive: [
 			{
 				breakpoint: 992,
@@ -14,4 +16,5 @@ $(document).ready(function(){
 		]
 	});
 });
-			
+
+// console.log('hello');
